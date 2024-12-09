@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  * Pace Smartphone
+  * https://www.instagram.com/adityatprtma/
+  * Created on 22-january-2022.
+  * Created by : Adityatprtma
+   -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bar_profile"
+    tools:context=".TentangActivity">
+
+    <RelativeLayout
+        android:id="@+id/compare"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/bar_profile"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/tentang"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bar_profile"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_logo"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20sp"
+        android:letterSpacing="0.2"
+        android:text="@string/aplikasi_ini_hadir_untuk_membantu_pengguna_dengan_tujuan_memberikan_kemudahan_dalam_menentukan_sebuah_smartphone_yang_ingin_di_pilih_oleh_pengguna_dan_aplikasi_ini_dapat_membantu_anda_untuk_membandingkan_beberapa_tipe_atau_spesifikasi_smarphone_yang_dibutuhkan_pengguna_dalam_menunjang_aktifitas_pekerjaan_sehari_hari"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="17sp" />
+
+
+</LinearLayout>

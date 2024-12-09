@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  * Pace Smartphone
+  * https://www.instagram.com/adityatprtma/
+  * Created on 22-january-2022.
+  * Created by : Adityatprtma
+   -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OpsiActivity"
+    android:orientation="vertical">
+
+  <RelativeLayout
+      android:id="@+id/compare"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:background="@color/bar_profile"
+      android:layout_gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/iphone_13"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+  </RelativeLayout>
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@drawable/hp"/>
+
+      <RelativeLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@color/bg_1">
+
+        <TextView
+            android:layout_width="133dp"
+            android:layout_height="72dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/kekuatan_super_baru_di_tangan_anda"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/kiri"
+            android:layout_width="194dp"
+            android:layout_height="225dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/hp1" />
+
+        <ImageView
+            android:id="@+id/kanan"
+            android:layout_width="194dp"
+            android:layout_height="225dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/hp2" />
+      </RelativeLayout>
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginTop="10dp"
+          android:padding="7dp">
+
+        <ImageView
+            android:layout_width="189dp"
+            android:layout_height="218dp"
+            android:src="@drawable/shp_hp" />
+        <ImageView
+            android:layout_width="189dp"
+            android:layout_height="218dp"
+            android:src="@drawable/shp_hp1"/>
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="5dp"
+          android:layout_marginStart="28dp">
+
+        <ImageView
+            android:layout_width="199dp"
+            android:layout_height="248dp"
+            android:src="@drawable/shp_hp2"/>
+
+        <ImageView
+            android:layout_width="155dp"
+            android:layout_height="248dp"
+            android:src="@drawable/shp_hp3" />
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="159dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shp_hp4" />
+      </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="159dp">
+
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="-5dp"
+          android:src="@drawable/shp_hp5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="159dp">
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/shp_hp6"
+          android:layout_marginTop="-8dp"/>
+
+    </LinearLayout>
+
+      <Button
+          android:id="@+id/btn_pindah"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_gravity="center"
+          android:background="@color/bar_profile"
+          android:text="@string/compare"
+          android:layout_marginTop="-7dp"
+          android:textColor="@android:color/white"
+          android:textSize="18sp" />
+
+    </LinearLayout>
+  </ScrollView>
+</LinearLayout>

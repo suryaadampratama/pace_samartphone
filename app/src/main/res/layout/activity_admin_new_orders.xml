@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  * Pace Smartphone
+  * https://www.instagram.com/adityatprtma/
+  * Created on 22-january-2022.
+  * Created by : Adityatprtma
+   -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/textColor"
+    tools:context=".AdminNewOrdersActivity">
+    <RelativeLayout
+        android:id="@+id/r2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/bar_profile"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:text="@string/pesanan_baru"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:textSize="23sp"
+            />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/orders_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/r2"
+        android:layout_marginTop="4dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Pace Smartphone</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_1">Ayo bandingkan model smartphone yang anda inginkan.</string>
+    <string name="Login">Dengan mengklik, Anda menyetujui semua Syarat dan Ketentuan.</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="desc1">Wellcome back you’ve been missed!</string>
+    <string name="desc2">Hello signup to get started</string>
+    <string name="tentang">Tentang</string>
+    <string name="aplikasi_ini_hadir_untuk_membantu_pengguna_dengan_tujuan_memberikan_kemudahan_dalam_menentukan_sebuah_smartphone_yang_ingin_di_pilih_oleh_pengguna_dan_aplikasi_ini_dapat_membantu_anda_untuk_membandingkan_beberapa_tipe_atau_spesifikasi_smarphone_yang_dibutuhkan_pengguna_dalam_menunjang_aktifitas_pekerjaan_sehari_hari">Aplikasi ini hadir untuk membantu pengguna dengan tujuan memberikan kemudahan dalam menentukan sebuah smartphone yang ingin di pilih oleh pengguna, dan aplikasi ini dapat membantu anda untuk membandingkan beberapa tipe atau spesifikasi smarphone yang dibutuhkan pengguna dalam menunjang aktifitas pekerjaan sehari-hari.</string>
+    <string name="maaf_pak_belum_ada_isinya">Maaf Pak Belum Ada Isinya</string>
+    <string name="tambahkan_berita_baru">Tambahkan Berita Baru</string>
+    <string name="periksa_berita_user">Periksa Berita User</string>
+    <string name="logout">Logout</string>
+    <string name="pesanan_baru">Pesanan baru</string>
+    <string name="produk">Produk</string>
+    <string name="next">Selesai</string>
+    <string name="silakan_tulis_rincian_pengiriman_anda">Silakan tulis Rincian Pengiriman Anda</string>
+    <string name="nama_lengkap">Nama Lengkap*</string>
+    <string name="no_hp_whatsapp">No Hp/WhatsApp*</string>
+    <string name="alamat_rumah_anda">Alamat Rumah Anda*</string>
+    <string name="nama_kota">Nama Kota*</string>
+    <string name="confirm">Confirm</string>
+    <string name="login_admin">Login Admin</string>
+    <string name="login_user">Login User</string>
+    <string name="kekuatan_super_baru_di_tangan_anda">Kekuatan super baru di tangan Anda</string>
+    <string name="galaxy_note20_note20_ultra">Galaxy Note20 | Note20 Ultra</string>
+    <string name="compare">Compare</string>
+    <string name="get_started">Get Started</string>
+    <string name="nomor_telepon">Nomor telepon</string>
+    <string name="password">Password</string>
+    <string name="cari">Cari...</string>
+    <string name="search">Search</string>
+    <string name="keluar">Keluar</string>
+    <string name="update">Update</string>
+    <string name="ubah_profil">Ubah Profil</string>
+    <string name="alamat">Alamat...</string>
+    <string name="kekuatan_super_baru_di_tangan">Kekuatan super baru di tangan</string>
+    <string name="iphone_13">iPhone 13</string>
+    <string name="galaxy_note">Galaxy Note</string>
+    <string name="powerphone_yang_memberdayakan_pekerjaan_dan_permainan_anda">Powerphone yang memberdayakan pekerjaan dan permainan Anda</string>
+    <string name="iphone_12">iPhone 12</string>
+    <string name="iphone_yang_selalu_mengagumkan">iPhone yang selalu mengagumkan.</string>
+    <string name="selengkapnya">Selengkapnya</string>
+    <string name="user_name">user name</string>
+
+
+</resources>

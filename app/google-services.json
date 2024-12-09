@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "292927487649",
+    "project_id": "pacesmartphone-f0386",
+    "storage_bucket": "pacesmartphone-f0386.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292927487649:android:0a576b42c7ef86bb007ae0",
+        "android_client_info": {
+          "package_name": "com.example.PaceSmartphone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292927487649-87a9lhk2vgcvi1c4o9lm2sm88gejhc9t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpPVeOxyIPQ6ZBTIzxcmURic55z6w_u9Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292927487649-87a9lhk2vgcvi1c4o9lm2sm88gejhc9t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

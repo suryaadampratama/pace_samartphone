@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  * Pace Smartphone
+  * https://www.instagram.com/adityatprtma/
+  * Created on 22-january-2022.
+  * Created by : Adityatprtma
+   -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Opsi2Activity">
+
+    <RelativeLayout
+        android:id="@+id/compare"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/bar_profile"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/galaxy_note20_note20_ultra"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sms1"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_2">
+
+                <ImageView
+                    android:id="@+id/kiri"
+                    android:layout_width="121dp"
+                    android:layout_height="160dp"
+                    android:layout_marginStart="65dp"
+                    android:layout_marginTop="60dp"
+                    android:src="@drawable/sms2" />
+
+                <ImageView
+                    android:id="@+id/kanan"
+                    android:layout_width="121dp"
+                    android:layout_height="160dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="-70dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_toEndOf="@+id/kiri"
+                    android:src="@drawable/sms3" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-15dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sms4" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-40dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sms5"
+                    android:layout_marginTop="-8dp"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_pindah"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@color/bar_profile"
+                android:text="@string/compare"
+                android:layout_marginTop="-7dp"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  * Pace Smartphone
+  * https://www.instagram.com/adityatprtma/
+  * Created on 22-january-2022.
+  * Created by : Adityatprtma
+   -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".CompareActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/compare"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/bar_profile"
+            android:layout_alignParentTop="true">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/compare"
+                android:layout_marginStart="20dp"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/bt1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/compare"
+            android:orientation="horizontal">
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content" />
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="100dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="194dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/next_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bar_profile"
+        android:text="@string/next"
+        android:textColor="@android:color/white"
+        android:textSize="23sp" />
+</RelativeLayout>

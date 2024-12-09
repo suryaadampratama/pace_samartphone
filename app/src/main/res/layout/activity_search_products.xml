@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  * Pace Smartphone
+  * https://www.instagram.com/adityatprtma/
+  * Created on 22-january-2022.
+  * Created by : Adityatprtma
+   -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bar_profile"
+    tools:context=".SearchProductsActivity">
+
+    <RelativeLayout
+        android:id="@+id/r5"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:id="@+id/search_product_name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="3dp"
+            android:background="@drawable/input_design1"
+            android:hint="@string/cari"
+            android:padding="12dp"
+            android:textColor="@color/textColor"
+            android:textColorHint="#E4AFAEAE"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/search_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toEndOf="@+id/search_product_name"
+            android:background="@color/textColor"
+            android:padding="9dp"
+            android:text="@string/search"
+            android:textColor="@color/bar_profile"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/search_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/r5">
+
+    </androidx.recyclerview.widget.RecyclerView>
+</RelativeLayout>

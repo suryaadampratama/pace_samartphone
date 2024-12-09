@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  * Pace Smartphone
+  * https://www.instagram.com/adityatprtma/
+  * Created on 22-january-2022.
+  * Created by : Adityatprtma
+   -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/textColor"
+    tools:context=".AdminCategoryActivity">
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/bar_profile"
+        android:text="@string/tambahkan_berita_baru"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/check_orders_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/admin_logout_btn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/bar_profile"
+        android:text="@string/periksa_berita_user"
+        android:textAllCaps="false"
+        android:textColor="@color/textColor"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/admin_logout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="50dp"
+        android:background="@color/bar_profile"
+        android:text="@string/logout"
+        android:textAllCaps="false"
+        android:textColor="@color/textColor"
+        android:textSize="20sp" />
+</RelativeLayout>
